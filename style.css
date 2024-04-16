@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+}
+.firstimg{
+    width: 100%;
+
+}
+
+.all {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 55px;
+    width: 365px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.left {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 59%;
+}
+
+.text1 {
+    margin-bottom: 35px;
+}
+
+.title3,
+.title4,
+.title5 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text3,
+.text4,
+.text5 {
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+}
+
+.one {
+    width: 30%;
+    margin-right: 10%;
+}
+@media screen and (min-width: 991px) and (max-width: 1399px){
+    .all{
+        width: 85%;
+    }
+    .bottom{
+        width: 35%;
+    }
+    .one{
+        display: none;
+    }
+   
+    .left{
+        width: 35%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .text3, .text4, .text5{
+        font-size: 11px;
+    }
+    .title3, .title4, .title5{
+        font-size: 15px;
+    }
+    .right{
+        width: 181.86px;
+        margin-right: 30%;
+    }
+    .top{
+        height: 250px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 991px){
+    .all{
+        width: 85%;
+    }
+    /* .one{
+        display: none;
+    } */
+    .bottom{
+        width: 35%;
+    }
+    .left{
+        width: 35%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    h2{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .text3, .text4, .text5{
+        font-size: 11px;
+    }
+    .title3, .title4, .title5{
+        font-size: 15px;
+    }
+    .right{
+        width: 181.86px;
+        margin-right: 30%;
+    }
+    .top{
+        height: 250px;
+    }
+}
